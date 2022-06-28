@@ -40,4 +40,4 @@ jobs:
     steps:
       - name: Update Deployment Log
         run: ../Deployment/WriteDeploymentTimestamp.ps1
-        shell: pwsh
+        shell: powershell

@@ -31,7 +31,7 @@ jobs:
 
       - name: List Environment variables.
         run: |
-          echo ${{DEV_ROOTPATH}}
+          echo ${{ secrets.DEV_ROOTPATH }}
 
   deploy:
     runs-on: self-hosted

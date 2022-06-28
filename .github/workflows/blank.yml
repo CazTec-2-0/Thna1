@@ -30,10 +30,12 @@ jobs:
           echo test, and deploy your project.
 
       - name: List Environment variables.
-        run: Environment
+        run: |
+          echo ${{DEV_ROOTPATH}}
 
   deploy:
     runs-on: self-hosted
+    needs: build
 
     steps:
       - name: Update Deployment Log

@@ -30,8 +30,8 @@ jobs:
           echo test, and deploy your project.
 
       - name: List Environment variables.
-        run: env
-        
+        run: Environment
+
   deploy:
     runs-on: self-hosted
 

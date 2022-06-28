@@ -39,5 +39,5 @@ jobs:
 
     steps:
       - name: Update Deployment Log
-        run: ./Deployment/WriteDeploymentTimestamp.ps1
+        run: ./Deployment/WriteDeploymentTimestamp.ps1 -rootpath ${{ secrets.DEV_ROOTPATH }}
         shell: powershell

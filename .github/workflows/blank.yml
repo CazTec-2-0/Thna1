@@ -28,6 +28,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: List Environment variables.
+        run: env
+        
   deploy:
     runs-on: self-hosted
 

@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       thnainput1:
-        description: “Username for image registry”
+        description: "Thna1"
         required: true
         type: string
 
